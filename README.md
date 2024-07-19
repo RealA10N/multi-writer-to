@@ -1,4 +1,4 @@
-# MultiWriteTo
+# MultiWriterTo
 
 A simple utility that concatenates multiple `WriterTo` objects, into a single
 writing stream.
