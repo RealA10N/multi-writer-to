@@ -2,7 +2,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/RealA10N/multi-writer-to.svg)](https://pkg.go.dev/github.com/RealA10N/multi-writer-to)
 [![codecov](https://codecov.io/gh/RealA10N/multi-writer-to/graph/badge.svg?token=SDfCQpOpHn)](https://codecov.io/gh/RealA10N/multi-writer-to)
-[![CI](https://github.com/RealA10N/multi-writer-to/actions/workflows/go.yml/badge.svg)](https://github.com/RealA10N/multi-writer-to/actions/workflows/go.yml)
+[![CI](https://github.com/RealA10N/multi-writer-to/actions/workflows/ci.yml/badge.svg)](https://github.com/RealA10N/multi-writer-to/actions/workflows/ci.yml)
 
 A simple utility that concatenates multiple `WriterTo` objects, into a single
 writing stream.
