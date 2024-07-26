@@ -1,4 +1,4 @@
-package multiwriterto_test
+package writertoutils_test
 
 import (
 	"errors"
@@ -6,14 +6,14 @@ import (
 	"strings"
 	"testing"
 
-	multiwriterto "github.com/RealA10N/multi-writer-to"
+	writertoutils "github.com/RealA10N/writer-to-utils"
 	"github.com/stretchr/testify/assert"
 )
 
 func TestSingleWriterTo(t *testing.T) {
 	reader := strings.NewReader("hello, world!")
 
-	multiWriter := multiwriterto.MultiWriterTo(reader)
+	multiWriter := writertoutils.MultiWriterTo(reader)
 	output := new(strings.Builder)
 
 	n, err := multiWriter.WriteTo(output)
@@ -28,7 +28,7 @@ func TestMultipleWriteTo(t *testing.T) {
 	r1 := strings.NewReader("hello,")
 	r2 := strings.NewReader(" world!")
 
-	multiWriter := multiwriterto.MultiWriterTo(r1, r2)
+	multiWriter := writertoutils.MultiWriterTo(r1, r2)
 	output := new(strings.Builder)
 
 	n, err := multiWriter.WriteTo(output)
@@ -63,7 +63,7 @@ func TestErrorInMiddleOfWrite(t *testing.T) {
 	r1 := strings.NewReader("hello, ")
 	r2 := CorruptedWriterTo{str: "wor", err: expectedErr}
 
-	multiWriter := multiwriterto.MultiWriterTo(r1, r2)
+	multiWriter := writertoutils.MultiWriterTo(r1, r2)
 	output := new(strings.Builder)
 
 	n, err := multiWriter.WriteTo(output)

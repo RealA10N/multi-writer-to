@@ -1,4 +1,4 @@
-module github.com/RealA10N/multi-writer-to
+module github.com/RealA10N/writer-to-utils
 
 go 1.22.5
 

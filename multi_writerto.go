@@ -1,4 +1,4 @@
-package multiwriterto
+package writertoutils
 
 import "io"
 
