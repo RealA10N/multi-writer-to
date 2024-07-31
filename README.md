@@ -54,7 +54,7 @@ func main() {
 
     // output 3 lines of 'hi!'
     for i := 0; i < 3; i++ {
-    		bufferWriterTo.WriteTo(os.Stdout)
+    	bufferWriterTo.WriteTo(os.Stdout)
     }
 }
 ```
