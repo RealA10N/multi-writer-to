@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	writertoutils "github.com/RealA10N/writer-to-utils"
+	"alon.kr/x/writertoutils"
 	"github.com/stretchr/testify/assert"
 )
 

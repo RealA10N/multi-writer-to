@@ -1,8 +1,8 @@
 # WriterTo Utils
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/RealA10N/writer-to-utils.svg)](https://pkg.go.dev/github.com/RealA10N/writer-to-utils)
-[![codecov](https://codecov.io/gh/RealA10N/writer-to-utils/graph/badge.svg?token=SDfCQpOpHn)](https://codecov.io/gh/RealA10N/writer-to-utils)
-[![CI](https://github.com/RealA10N/writer-to-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/RealA10N/writer-to-utils/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/RealA10N/writertoutils.svg)](https://pkg.go.dev/alon.kr/x/writertoutils)
+[![codecov](https://codecov.io/gh/RealA10N/writer-to-utils/graph/badge.svg?token=SDfCQpOpHn)](https://codecov.io/gh/RealA10N/writertoutils)
+[![CI](https://github.com/RealA10N/writertoutils/actions/workflows/ci.yml/badge.svg)](https://github.com/RealA10N/writertoutils/actions/workflows/ci.yml)
 
 Useful functions & types that extend the functionality of the `io.WriterTo` interface in Golang.
 

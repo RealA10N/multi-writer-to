@@ -1,4 +1,4 @@
-module github.com/RealA10N/writer-to-utils
+module alon.kr/x/writertoutils
 
 go 1.22.5
 
